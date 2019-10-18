@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import axios from 'axios';
 import { Button, FormGroup, FormControl, FormLabel} from "react-bootstrap";
+import { Redirect } from "react-router-dom";
 
 const Login = (props) => {
 	// make a post request to retrieve a token from the api
@@ -25,6 +26,9 @@ const Login = (props) => {
 		})
 		.catch(error => console.log(error));
   }
+
+  if (localStorage.getItem("token")) return <Redirect to="/bubble" />;
+
   
 	return (
 		<div>
@@ -55,3 +59,4 @@ const Login = (props) => {
 };
 
 export default Login;
+
