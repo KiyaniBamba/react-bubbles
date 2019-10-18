@@ -37,7 +37,6 @@ const Login = (props) => {
 						name="username"
 						type="text"
 						onChange={onChange}
-						autoComplete="username"
           />
         </FormGroup>
         <FormGroup controlId="password" bsSize="large">
@@ -47,12 +46,9 @@ const Login = (props) => {
             name="password"
             type="password"
             onChange={onChange}
-            autoComplete="current-password"  
           />
         </FormGroup>
-        <Button block bsSize="large" type="submit" onClick={postLogin}>
-          Submit 
-        </Button>
+        <Button type="submit">Submit</Button>
       </form>
 		</div>
 	);
