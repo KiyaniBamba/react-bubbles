@@ -28,14 +28,15 @@ In this project you will create a login page and request a token from the server
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain what a token is used for.
+- [x] Explain what a token is used for.
 
 A token is like a key wrote by our server. It's wrote in his handwrite so when you want to have access to a specific set of date or a private page, it can let you in. It's like a invitation card for a private party.
 
-- [ ] What steps can you take in your web apps to keep your data secure?
+- [x] What steps can you take in your web apps to keep your data secure?
 We can use different PrivateRoute so our data can be access only when someine has the right authentification.
 
-- [ ] Describe how web servers work.
+- [x] Describe how web servers work.
+
 We can have access to a page when our browser request from a web servers a page.
 It works in 4 steps:
 1. We have to obtain the IP address of the domain we want to have access
@@ -43,7 +44,8 @@ It works in 4 steps:
 3. The web servers responds to the browser by sending the desired pages, and in case, the pages do not exist or some other error occurs, it will send the appropriate error message.
 4. Browser displays the web page: T
 
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+- [x] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
 the PUT
 
 
